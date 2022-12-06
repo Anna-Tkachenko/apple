@@ -1,0 +1,46 @@
+html {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.nav {
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  font-size: 0;
+
+  text-align: center;
+}
+
+.nav__link {
+  display: inline-block;
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+
+  padding: 10px 20px;
+  margin: 0 20px;
+
+  transition: 0.3s color;
+}
+
+.nav__link:hover {
+  color: #1fc8db;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__item {
+  display: inline-block;
+}
+
